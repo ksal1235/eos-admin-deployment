@@ -1,5 +1,5 @@
- def label = "eosagent"
-  def env = "dev"
+  def label = "eosagent"
+  def env = "perf"
   podTemplate(label: label, yaml: """
   apiVersion: v1
   kind: Pod
